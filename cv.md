@@ -16,3 +16,26 @@ My strenghts
 * Module Bundlers: Gulp
 * Version control: Git (remote service GitHub)
 * C# (basic knowledge), Python(basic knowledge)
+# Code Example
+```JavaScript
+function humanReadable(sec) {
+  let h = Math.floor(sec / 3600),
+      m = Math.floor(sec / 60 % 60),
+      s = Math.floor(sec % 3600 % 60);
+  if (h < 10) {
+    h = "0"+h
+  }
+  if (m < 10) {
+    m = "0"+m
+  }
+  if (s < 10) {
+    s = "0"+s
+  }
+  return `${h}:${m}:${s}`
+}
+```
+# Education
+I learned HTML, CSS (SASS/CSS), JavaScript and other things during college
+# Languages
+* Russian (native) 
+* English (idk, i just learn it by myself)
